@@ -6,7 +6,6 @@ import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 import InstallBootstrap from "@/components/InstallBootstrap";
 import NavBar from "@/components/NavBar";
-import CardContainer from "@/components/CardContainer";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 
@@ -33,7 +32,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <InstallBootstrap/>
         <NavBar/>
-        <CardContainer/>
+
         <Hero/>
         {children}
         <Footer/>
