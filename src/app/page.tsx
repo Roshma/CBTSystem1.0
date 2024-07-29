@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-
+              <Hero/>
       <div className="container">
         <div className="row">
           <div className="col-sm"></div>

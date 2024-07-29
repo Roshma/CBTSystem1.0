@@ -33,7 +33,7 @@ export default function RootLayout({
         <InstallBootstrap/>
         <NavBar/>
 
-        <Hero/>
+
         {children}
         <Footer/>
         </body>
